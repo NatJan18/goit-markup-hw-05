@@ -330,16 +330,31 @@ ul {
     padding-top: 0;
 }
 
-/* .img-list {
-} */
-
 .img-list .item {
     flex-basis: calc(100% / 3 - 30px);
 }
 
-/* .img-list .item:not(:last-child) {
-    margin-right: 30px;
-} */
+.doing-item {
+    position: relative;
+}
+
+.doing-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+
+}
 
 /* Team section */
 
