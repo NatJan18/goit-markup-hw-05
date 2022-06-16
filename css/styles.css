@@ -710,26 +710,22 @@ display: flex;
 
 .modal-btn {
     position: absolute;
-    display: inline-block;
+    display: flex;
     top: 8px;
     right: 8px;
+    padding: 0;
     width: 30px;
     height: 30px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
 .modal-icon {
-    position: absolute;
-    top: 9px;
-    left: 9px;
-
-    display: inline-block;
-
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
     fill: currentColor;
 }
 
